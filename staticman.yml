@@ -1,0 +1,9 @@
+posts:
+  allowedFields: ["name", "title", "message"]
+  branch: "main"
+  filename: "post-{@timestamp}"
+  path: "_posts"
+  format: "md"
+  moderation: false
+  transforms:
+    message: "md"
